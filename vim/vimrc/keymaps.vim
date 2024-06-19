@@ -116,8 +116,9 @@ nnoremap <leader>fh :Helptags<CR>
 
 " Function to delete the current word under the cursor
 function! DeleteCurrentWord()
-  normal! b
-  normal! v
+  normal! h
   normal! e
+  normal! v
+  normal! b
   normal! d
 endfunction
