@@ -44,7 +44,8 @@ Configuration Details
 
 
 
-<img width="1728" alt="Screenshot 2024-06-19 at 15 33 19" src="https://github.com/inarvos/Vim-Mac-Pro-M3/assets/37037175/974cc299-f846-419e-a33f-81f86aeb54f2">
+<img width="784" alt="Screenshot 2024-06-19 at 15 36 01" src="https://github.com/inarvos/Vim-Mac-Pro-M3/assets/37037175/1a0f03f5-0326-4eb8-8755-5e8e2d6c078a">
+
 
  
 
