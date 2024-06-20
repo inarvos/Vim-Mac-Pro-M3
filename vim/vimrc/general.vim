@@ -14,6 +14,7 @@ set display+=lastline     " Ensure the last line is always displayed
 
 " Cursor
 set cursorline            " Highlight the current line
+set nocompatible
 set whichwrap+=<,>,h,l    " Allow cursor to move to the next line with the <Right> arrow key at the end of the line
 set virtualedit=onemore   " Allow cursor to move one character past the end of the line
 " Set cursor shape and style for different modes
@@ -32,10 +33,11 @@ set smartcase             " Override 'ignorecase' if search pattern contains upp
 " Indentation Settings
 set tabstop=4             " Number of spaces that a <Tab> in the file counts for
 set shiftwidth=4          " Number of spaces to use for each step of (auto)indent
+set softtabstop=4         " Controls how many spaces are inserted
 set expandtab             " Convert tabs to spaces
 set autoindent            " Copy indent from current line when starting a new line
 set smartindent           " Smart autoindenting when starting a new line
-set breakindent           " Wrap indent to match line start
+"set breakindent           " Wrap indent to match line start
 
 " Clipboard and Mouse Settings
 set clipboard=unnamed     " Use the system clipboard for all yank, delete, change and put operations
@@ -73,7 +75,10 @@ set backspace=start,eol,indent  " Allow backspacing over everything in insert mo
 " Spelling Settings
 set spell                 " Show spelling errors
 
+
+
 " Autocommands
+
 " Highlight yanked text for 200ms using the 'Visual' highlight group
 augroup highlight_yank
   autocmd!

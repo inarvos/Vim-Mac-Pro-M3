@@ -7,7 +7,12 @@ let mapleader = " "
 
 " Keymaps
 
+" Custom mapping for left arrow key in insert mode
+inoremap <expr> <Left> (col('.') == 1 ? '<Esc>k$a' : '<Left>')
+" Custom mapping for right arrow key in insert mode
+inoremap <expr> <Right> (col('.') == col('$') ? '<Esc>j0i' : '<Right>')
 " Remap j and k to move by visual lines instead of logical lines
+
 nnoremap <down> gj
 nnoremap <up> gk
 vnoremap <down> gj
@@ -87,8 +92,6 @@ nnoremap tn :tabn<CR>
 nnoremap <tab> :tabn<CR>
 "Go to previous tab
 nnoremap tp :tabp<CR>
-
-
 
 "---------------------
 "- Plugin Keybinds

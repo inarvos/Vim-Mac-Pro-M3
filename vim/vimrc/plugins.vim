@@ -71,4 +71,4 @@ let g:indentLine_char = '│'
 let g:highlightedyank_highlight_duration = 200
 
 " Set colorscheme after plugin installation
-autocmd VimEnter * colorscheme iceberg
+autocmd VimEnter * colorscheme moonfly
